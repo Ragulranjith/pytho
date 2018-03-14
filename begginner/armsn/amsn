@@ -1,0 +1,7 @@
+n=int(input("Enter a number: "))
+a=list(map(int,str(n)))
+b=list(map(lambda x:x**3,a))
+if(sum(b)==n):
+    print("This number is  armstrong number. ")
+else:
+    print("This number isn't  arsmtrong number. ")
